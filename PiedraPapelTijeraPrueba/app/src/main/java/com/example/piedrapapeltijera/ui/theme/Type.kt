@@ -6,29 +6,32 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-// Set of Material typography styles to start with
 val Typography = Typography(
-    bodyLarge = TextStyle(
+    // Título grande: marcador, resultado
+    displayLarge = TextStyle(
         fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    )
-    /* Other default text styles to override
+        fontWeight = FontWeight.ExtraBold,
+        fontSize   = 56.sp,
+        letterSpacing = (-1).sp
+    ),
+    // Subtítulos: "Elige tu jugada", "Resultado"
     titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
+        fontWeight = FontWeight.Bold,
+        fontSize   = 22.sp,
         letterSpacing = 0.sp
     ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
+    // Etiquetas pequeñas: "Tú", "CPU"
+    labelMedium = TextStyle(
+        fontWeight    = FontWeight.SemiBold,
+        fontSize      = 13.sp,
+        letterSpacing = 1.5.sp
+    ),
+    // Texto general
+    bodyLarge = TextStyle(
+        fontFamily    = FontFamily.Default,
+        fontWeight    = FontWeight.Normal,
+        fontSize      = 16.sp,
+        lineHeight    = 24.sp,
         letterSpacing = 0.5.sp
     )
-    */
 )

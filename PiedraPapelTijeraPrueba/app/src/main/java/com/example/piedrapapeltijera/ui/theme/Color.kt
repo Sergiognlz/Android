@@ -2,10 +2,12 @@ package com.example.piedrapapeltijera.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
-
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Tema oscuro estilo juego
+val BackgroundDark = Color(0xFF0D0F14)
+val SurfaceDark    = Color(0xFF1A1E2B)
+val PrimaryViolet  = Color(0xFF7F52FF)
+val SecondaryBlue  = Color(0xFF4FC3F7)
+val AccentGreen    = Color(0xFF4ADE80)
+val AccentRed      = Color(0xFFF87171)
+val TextPrimary    = Color(0xFFE2E8F0)
+val TextMuted      = Color(0xFF64748B)
